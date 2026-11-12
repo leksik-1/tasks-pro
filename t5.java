@@ -1,6 +1,6 @@
 public class t5 {
     public static void main(String[] args) {
-        head(5, 7);
+        head(10, 12);
     }
 
     public static void head(int h, int w) {
