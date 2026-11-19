@@ -11,7 +11,7 @@ public class t7 {
             boolean isStart = (i == 0) || (a[i - 1] <= a[i]);   // перед ним спуска нет?
 
             if (goesDown && isStart) {
-                count++;   // нашли начало нового интервала
+                count++;   // нашли нач нового инт
             }
         }
 
@@ -49,7 +49,6 @@ public class t7 {
     }
 
     public static void main(String[] args) {
-        // Заранее заготовленные тесты
         int[][] tests = {
             {1, 3, -2, 11, 7, 3, 3, 2, 4, 2, 7, 12},  // пример из условия, ответ 4
             {},                                       // пустой массив, ответ 0
